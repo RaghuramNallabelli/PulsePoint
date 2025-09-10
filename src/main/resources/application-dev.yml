@@ -1,0 +1,30 @@
+spring:
+  datasource:
+    username: root
+    url: jdbc:h2:mem:testdb
+    password: root
+    driver-class-name: org.h2.Driver
+  jpa:
+    show-sql: true
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+  mail:
+    host: smtp.gmail.com
+    port: 587
+    username: raghuram8297@gmail.com   #PulsePoint_Hospital mail address
+    password: vizn esie ckvp awuy
+    properties:
+      mail:
+        smtp:
+          auth: true
+          starttls:
+            enable: true
+logging:
+  file:
+    name: logs/hospital-app.log
+  level:
+    root: INFO
+    
+  
+    

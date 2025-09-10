@@ -1,0 +1,9 @@
+spring:
+  datasource:
+    username: root
+    password: root
+    url: jdbc:mysql://localhost:3306/PulsePoint_Hospital
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
